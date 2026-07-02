@@ -1,0 +1,314 @@
+#
+# Blue Metal Dark Theme
+#
+blue_metal_dark:
+  # ============================
+  #   Variabelen
+  # ============================
+  card-header-shadow: "2px 2px 2px #000"
+  theme-bg: "#1d1e20"
+  theme-bg-alt: "#18191b"
+  theme-sidebar-icon: "#797d86"
+  theme-slider-disabled: "#0d2f73"
+  entity-text-shadow: "1px 1px 1px #000"
+  font-weight-primary: "400"
+
+  # ============================
+  #   Entity row styling
+  # ============================
+  entity-font-weight: "var(--font-weight-primary)"
+
+  # ============================
+  #   Achtergrond
+  # ============================
+  lovelace-background: "center / cover no-repeat url('/local/images/backgrounds/blue-metal-dark.jpg') fixed"
+
+  # ============================
+  #   Klok font
+  # ============================
+  clock-font: "SFMono, monospace"
+
+  # ============================
+  #   HA core
+  # ============================
+  accent-color: "#494b50"
+  dark-primary-color: "#94979e"
+  disabled-text-color: "#6c6f75"
+  error-color: "#db4437"
+  error-state-color: "var(--error-color)"
+  primary-background-color: "#27282b"
+  primary-color: "#2581ab"
+  primary-text-color: "#d4d5d7"
+  secondary-background-color: "var(--primary-background-color)"
+  secondary-text-color: "var(--primary-text-color)"
+  state-icon-color: "#6d7178"
+  text-primary-color: "var(--primary-text-color)"
+
+  # ============================
+  #   Card
+  # ============================
+  ha-card-background: "rgba(10, 10, 10, 0.4)"
+  ha-card-border-radius: "5px"
+  ha-card-border-width: "0"
+  ha-card-box-shadow: "none"
+  ha-card-font-weight: "normal"
+  ha-card-header-color: "var(--primary-text-color)"
+  card-background-color: "var(--theme-bg)"
+  card-primary-font-weight: "var(--font-weight-primary)"
+  data-table-background-color: "var(--theme-bg)"
+  divider-color: "var(--theme-bg)"
+  label-badge-background-color: "var(--theme-bg)"
+  label-badge-border-color: "#603520"
+  label-badge-red: "#603520"
+  label-badge-text-color: "var(--primary-text-color)"
+  table-row-alternative-background-color: "var(--theme-bg-alt)"
+  table-row-background-color: "var(--theme-bg)"
+
+  # ============================
+  #   Dialog
+  # ============================
+  mdc-theme-on-surface: "#c2c9d6"
+  mdc-theme-surface: "var(--theme-bg)"
+
+  # ============================
+  #   Sidebar
+  # ============================
+  sidebar-icon-color: "var(--theme-sidebar-icon)"
+  sidebar-text-color: "var(--primary-text-color)"
+
+  # ============================
+  #   Slider
+  # ============================
+  md-slider-active-track-color: "var(--primary-color)"
+  md-slider-disabled-active-track-color: "var(--theme-slider-disabled)"
+  md-slider-disabled-handle-color: "var(--primary-text-color)"
+  md-slider-disabled-inactive-track-color: "var(--theme-slider-disabled)"
+  md-slider-handle-color: "var(--primary-color)"
+  md-slider-inactive-track-color: "rgba(255, 255, 255, 0.2)"
+
+  # ============================
+  #   Toggle / Switch
+  # ============================
+  mdc-theme-secondary: "#0d59f2"
+  switch-checked-button-color: "#0d59f2"
+  switch-checked-track-color: "#3d3f43"
+  switch-unchecked-button-color: "#3d3f43"
+  switch-unchecked-track-color: "#0c0d0d"
+
+  # ============================
+  #   Tabs
+  # ============================
+  mdc-theme-primary: "var(--primary-color)"
+
+  # ============================
+  #   ha-color tokens (optimized)
+  # ============================
+  # --- BORDERS ---
+  ha-color-border-danger-loud: "var(--ha-color-red-60)"
+  ha-color-border-danger-normal: "var(--ha-color-red-50)"
+  ha-color-border-danger-quiet: "var(--ha-color-red-20)"
+  ha-color-border-neutral-loud: "var(--ha-color-neutral-70)"
+  ha-color-border-neutral-normal: "var(--ha-color-neutral-50)"
+  ha-color-border-neutral-quiet: "var(--ha-color-neutral-30)"
+  ha-color-border-normal: "var(--ha-color-primary-50)"
+  ha-color-border-warning-loud: "var(--ha-color-orange-60)"
+  ha-color-border-warning-normal: "var(--ha-color-orange-50)"
+
+  # --- FILLS (INTERACTIEF) ---
+  # Danger (Gevaar/Fout)
+  ha-color-fill-danger-loud-resting: "var(--ha-color-red-40)"
+  ha-color-fill-danger-loud-hover: "var(--ha-color-red-50)"
+  ha-color-fill-danger-loud-active: "var(--ha-color-red-60)"
+  ha-color-fill-danger-normal-resting: "var(--ha-color-red-20)"
+  ha-color-fill-danger-normal-hover: "var(--ha-color-red-30)"
+  ha-color-fill-danger-normal-active: "var(--ha-color-red-40)"
+  ha-color-fill-danger-quiet-resting: "var(--ha-color-red-10)"
+  ha-color-fill-danger-quiet-hover: "var(--ha-color-red-15)"
+  ha-color-fill-danger-quiet-active: "var(--ha-color-red-20)"
+
+  # Disabled (Uitgeschakeld)
+  ha-color-fill-disabled-loud-resting: "var(--ha-color-neutral-30)"
+  ha-color-fill-disabled-normal-resting: "var(--ha-color-neutral-20)"
+  ha-color-fill-disabled-quiet-resting: "var(--ha-color-neutral-10)"
+
+  # Neutral (Standaard elementen)
+  ha-color-fill-neutral-normal-resting: "var(--ha-color-neutral-20)"
+  ha-color-fill-neutral-normal-hover: "var(--ha-color-neutral-30)"
+  ha-color-fill-neutral-normal-active: "var(--ha-color-neutral-40)"
+  ha-color-fill-neutral-quiet-resting: "var(--ha-color-neutral-05)"
+  ha-color-fill-neutral-quiet-hover: "var(--ha-color-neutral-10)"
+  ha-color-fill-neutral-quiet-active: "var(--ha-color-neutral-15)"
+
+  # Primary (Accentkleur/Acties)
+  ha-color-fill-primary-normal-resting: "var(--ha-color-primary-20)"
+  ha-color-fill-primary-normal-hover: "var(--ha-color-primary-30)"
+  ha-color-fill-primary-normal-active: "var(--ha-color-primary-40)"
+  ha-color-fill-primary-quiet-resting: "var(--ha-color-primary-05)"
+  ha-color-fill-primary-quiet-hover: "var(--ha-color-primary-10)"
+  ha-color-fill-primary-quiet-active: "var(--ha-color-primary-15)"
+
+  # Success (Gelukt/Veilig)
+  ha-color-fill-success-loud-resting: "var(--ha-color-green-40)"
+  ha-color-fill-success-loud-hover: "var(--ha-color-green-50)"
+  ha-color-fill-success-loud-active: "var(--ha-color-green-60)"
+  ha-color-fill-success-normal-resting: "var(--ha-color-green-20)"
+  ha-color-fill-success-normal-hover: "var(--ha-color-green-30)"
+  ha-color-fill-success-normal-active: "var(--ha-color-green-40)"
+  ha-color-fill-success-quiet-resting: "var(--ha-color-green-10)"
+  ha-color-fill-success-quiet-hover: "var(--ha-color-green-15)"
+  ha-color-fill-success-quiet-active: "var(--ha-color-green-20)"
+
+  # Warning (Waarschuwing)
+  ha-color-fill-warning-loud-resting: "var(--ha-color-orange-40)"
+  ha-color-fill-warning-loud-hover: "var(--ha-color-orange-50)"
+  ha-color-fill-warning-loud-active: "var(--ha-color-orange-60)"
+
+  ha-color-fill-warning-normal-resting: "var(--ha-color-orange-20)"
+  ha-color-fill-warning-normal-hover: "var(--ha-color-orange-30)"
+  ha-color-fill-warning-normal-active: "var(--ha-color-orange-40)"
+
+  ha-color-fill-warning-quiet-resting: "var(--ha-color-orange-10)"
+  ha-color-fill-warning-quiet-hover: "var(--ha-color-orange-15)"
+  ha-color-fill-warning-quiet-active: "var(--ha-color-orange-20)"
+
+  # --- FORM BACKGROUNDS ---
+  ha-color-form-background: "var(--ha-color-neutral-20)"
+  ha-color-form-background-hover: "var(--ha-color-neutral-30)"
+  ha-color-form-background-disabled: "var(--ha-color-neutral-10)"
+
+  # --- TEXT & LABELS ---
+  ha-color-on-danger-loud: "var(--white-color)"
+  ha-color-on-danger-normal: "var(--ha-color-red-60)"
+  ha-color-on-danger-quiet: "var(--ha-color-red-70)"
+  ha-color-on-disabled-loud: "var(--ha-color-neutral-50)"
+  ha-color-on-disabled-normal: "var(--ha-color-neutral-50)"
+  ha-color-on-disabled-quiet: "var(--ha-color-neutral-40)"
+  ha-color-on-neutral-loud: "var(--white-color)"
+  ha-color-on-neutral-normal: "var(--ha-color-neutral-60)"
+  ha-color-on-neutral-quiet: "var(--ha-color-neutral-70)"
+  ha-color-on-primary-normal: "var(--ha-color-primary-60)"
+  ha-color-on-primary-quiet: "var(--ha-color-primary-70)"
+  ha-color-on-success-loud: "var(--white-color)"
+  ha-color-on-success-normal: "var(--ha-color-green-60)"
+  ha-color-on-success-quiet: "var(--ha-color-green-70)"
+  ha-color-on-surface-default: "var(--ha-color-neutral-95)"
+  ha-color-on-warning-loud: "var(--white-color)"
+  ha-color-on-warning-normal: "var(--ha-color-orange-60)"
+  ha-color-on-warning-quiet: "var(--ha-color-orange-70)"
+  ha-color-surface-default: "var(--ha-color-neutral-10)"
+  ha-color-text-link: "var(--ha-color-primary-60)"
+  ha-color-text-primary: "var(--white-color)"
+  ha-color-text-secondary: "var(--ha-color-neutral-80)"
+
+  # ============================
+  #   ha-view
+  # ============================
+  ha-view-sections-column-gap: "12px"
+  ha-view-sections-row-gap: "12px"
+
+  # ============================
+  #   HACS
+  # ============================
+  hacs-badge-color: "var(--accent-color)"
+  hacs-badge-text-color: "#fff"
+  hacs-status-installed: "#80b929"
+  hacs-status-pending-restart: "#b92938"
+  hacs-status-pending-update: "#b96229"
+  link-text-color: "var(--accent-color)"
+
+  # ============================
+  #   Mini Media Player
+  # ============================
+  mini-media-player-accent-color: "var(--accent-color)"
+  mini-media-player-base-color: "var(--primary-text-color)"
+  mini-media-player-icon-color: "var(--primary-text-color)"
+
+  # ============================
+  #   Markdown
+  # ============================
+  markdown-code-background-color: "var(--primary-background-color)"
+  markdown-table-border-collapse: "collapse"
+  markdown-table-border-color: "transparent"
+  markdown-table-border-width: "0"
+  markdown-table-border-style: "none"
+
+  # ============================
+  #   Mdc / invoervelden
+  # ============================
+  input-dropdown-icon-color: "var(--theme-sidebar-icon)"
+  input-fill-color: "var(--theme-bg)"
+  input-label-ink-color: "var(--primary-text-color)"
+  input-text-color: "var(--primary-text-color)"
+  mdc-button-background-color: "var(--primary-color)"
+  mdc-text-field-fill-color: "var(--ha-color-neutral-20)"
+  mdc-theme-text-primary-on-background: "var(--primary-text-color)"
+
+  # ============================
+  #   Bar Card
+  # ============================
+  bar-card-border-radius: "5px"
+  custom-bar-card-color: "var(--accent-color)"
+
+  # ============================
+  #   CodeMirror
+  # ============================
+  codemirror-atom: "#f90"
+  codemirror-comment: "#868686"
+  codemirror-def: "#7070f9"
+  codemirror-keyword: "#b581ff"
+  codemirror-number: "#ff822e"
+  codemirror-operator: "#ffd90e"
+  codemirror-property: "#f25eb8"
+  codemirror-string: "#46c8ff"
+
+  # ============================
+  #   Energy
+  # ============================
+  energy-battery-in-color: "#f06292"
+  energy-battery-out-color: "#4db6ac"
+  energy-gas-color: "#8e021b"
+  energy-grid-consumption-color: "#488fc2"
+  energy-grid-return-color: "#8353d1"
+  energy-non-fossil-color: "#0f9d58"
+  energy-solar-color: "#ff9800"
+  energy-water-color: "#00bcd4"
+
+  # ============================
+  #   horizon-card
+  # ============================
+  hc-primary: "var(--primary-text-color)"
+
+  # ============================
+  #   Mini Graph Card
+  # ============================
+  mcg-title-font-weight:  "var(--font-weight-primary)"
+  mcg-title-letter-spacing: "normal"
+
+  # ============================
+  #   Mushroom
+  # ============================
+  mush-chip-avatar-border-radius: "50%"
+  mush-chip-avatar-padding: "0.1em"
+  mush-chip-border-radius: "16px"
+  mush-chip-font-weight:  "var(--font-weight-primary)"
+  mush-chip-height: "42px"
+  mush-chip-padding: "20px"
+  mush-chip-spacing: "16px"
+  mush-card-primary-font-weight:  "var(--font-weight-primary)"
+
+  # ============================
+  #   Card Mod
+  # ============================
+  card-mod-theme: blue_metal_dark
+
+  card-mod-root: |
+    ha-card {
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+
+  card-mod-card: |
+    #states > div > * {
+      font-weight: var(--entity-font-weight) !important;
+      text-shadow: var(--entity-text-shadow) !important;
+    }
